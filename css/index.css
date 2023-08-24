@@ -1,0 +1,277 @@
+#rebox {
+    background-color: white;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    height: 80vh;
+    overflow: hidden;
+    margin: auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    /* border: 5px solid aqua; */
+    border-radius: 25px;
+    padding: 20px;
+    /* overflow: hidden; */
+
+}
+
+
+#phonetext {
+    width: 70%;
+    /* margin: 20px; */
+    font-size: 20px;
+    border: none;
+    border-right: 2px solid #f1f1f1 ;
+    /* margin: 30px 0; */
+    position: relative;
+    /* border: none; */
+    outline: none;
+    background: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    /* position: relative; */
+    /* transform: translate(-50%, -50%); */
+}
+
+#cell {
+    position: relative;
+    top: 120px;
+    left: 20px;
+    width: fit-content;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* padding: 10px; */
+    /* background-color: red; */
+    justify-content: space-between;
+}
+
+#cell label {
+    padding: 10px;
+}
+
+#phonediv {
+    width: 90%;
+    top: 140px;
+    position: relative;
+    /* background-color: palegoldenrod; */
+    /* display: flex; */
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+#confirmationDiv select {
+    width: 10%;
+    /* height: 20px; */
+    border: none;
+}
+
+#passwordtext, #codetext {
+    /* width: 70%; */
+    width: 70%;
+    
+    /* margin: 20px; */
+    font-size: 17px;
+    border: none;
+    border-right: 2px solid #f1f1f1 ;
+    /* margin: 30px 0; */
+    position: relative;
+    /* border: none; */
+    outline: none;
+    background: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+#passwordDiv, #confirmationDiv {
+    width: 90%;
+    top: 150px;
+    position: relative;
+    /* background-color: plum; */
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+#countrytext {
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/* #ukflag {
+    top: 25px;
+    float: right;
+    padding-right: 150px;
+}  */
+#countrydiv {
+    float: right;
+    width: 13%;
+    padding: 2px;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-right: 90px; */
+    position: absolute ;
+    top: 30px;
+    left: 70%;
+    transform: translate(-50%, -30%);
+
+
+    
+    
+}
+
+#mottotext {
+    top: 90px;
+    position: absolute ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#agreementDiv {
+    /* background-color: plum; */
+    top: 170px;
+    position: relative;
+    justify-content: space-between;
+    align-content: space-evenly;
+    display: flex;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#loginbtn {
+    background-color: rgb(243, 105, 105);
+    width: 100%;
+    height: 40px;
+    color: white;
+    position: relative;
+    top: 195px;
+    font-size: 25px;
+    align-self: center;
+    border-radius: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#verificationDiv {
+    position: relative;
+    top: 210px;
+    background-color: pink;
+}
+
+#verificationDiv #label1 {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#verificationDiv #label2 {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media screen and (max-width: 1000px ) {
+ #confirmationDiv select {
+    width: 50px;
+ }
+#confirmationDiv .usertext {
+    width: 84%;
+}
+
+}
+
+@media  screen and (max-width: 625px) {
+/*        
+#confirmationDiv .verCode {
+    width: 100%;
+}
+#confirmationDiv .vCode {
+    text-align: center;
+    position: relative;
+    left: 35%;
+    color: blue;
+    align-content: center;
+    transform: translate(-50%, -50%);
+} */
+}
+
+@media  screen and (max-width: 772px) {
+       
+    #confirmationDiv .verCode2 {
+        width: 50%;
+        font-size: 14px;
+    }
+    #confirmationDiv .vCode2 {
+        text-align: center;
+        color: blue;
+        align-content: center;
+        transform: translate(-50%, -50%);
+    }
+
+    
+
+    }
+
+    @media screen and (max-width: 600px) {
+        #countrydiv {
+            width: 90px;
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+        #rebox {
+            width: 70%;
+        }
+    }
+
+    @media screen and (max-width: 625px) {
+        #confirmationDiv .verCode {
+            width: 50%;
+            font-size: 15px;
+        }
+        #confirmationDiv .vCode {
+            text-align: center;
+            color: blue;
+            align-content: center;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    @media screen and (max-width: 425px) {
+        #confirmationDiv .phoneput {
+            width: 65%;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        #confirmationDiv .verCode {
+            width: 100%;
+            font-size: 15px;
+        }
+        #confirmationDiv .vCode {
+            text-align: center;
+            color: blue;
+            left: 35%;
+            position: relative;
+            align-content: center;
+            transform: translate(-50%, -50%);
+        }
+
+        #confirmationDiv .verCode2 {
+            width: 100%;
+            font-size: 15px;
+        }
+        #confirmationDiv .vCode2 {
+            text-align: center;
+            color: blue;
+            position: relative;
+            align-content: center;
+            left: 35%;
+            transform: translate(-50%, -50%);
+        }
+    }
+

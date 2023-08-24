@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoppe Login</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+</head>
+<body style="background-color: whitesmoke;">
+
+    
+    <div id="rebox">
+        <div id="countrydiv">
+        
+        <img src="images/uk_flag.jpg" width="35px" height="25px" id="ukflag">
+        <p id="countrytext"> English </p>
+       </div>
+        <p id="mottotext">Gurantee low price</p>
+       <div id="cell">
+        <label>Cellphone Number</label>
+        <label>Email Address</label>
+       </div>
+
+
+        <div id="confirmationDiv">
+        <select>
+            <option value="nigeria">+234</option>
+            <option value="Albania">Albania</option>
+            <option value="Algeria">Algeria</option>
+            <option value="American Samoa">American Samoa</option>
+            <option value="Andorra">Andorra</option>
+            <option value="Angola">Angola</option>
+            <option value="Anguilla">Anguilla</option>
+            <option value="Antartica">Antarctica</option>
+            <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Armenia">Armenia</option>
+        </select>
+        <input type="number" id="phonetext" class="phoneput" placeholder="Phone number">
+        <iconify-icon icon="bx:message-square-x" ></iconify-icon>
+        </div>
+
+        <div id="confirmationDiv">
+            <input class="verCode" type="password" id="passwordtext" placeholder="Please enter Password" >
+            <label class="vCode">Forgot password</label>
+        </div>
+
+        <div id="agreementDiv">
+            <div>
+                <iconify-icon icon="bx:message-square-check"></iconify-icon>
+                <label for="agreementDiv">By loggin in you agree</label>
+        </div>
+            <a href="index.html"><label for="agreementDiv">Registration agreement</label></a>
+            <div>
+                <label for="">and</label>
+                <a href="index.html"><label for="agreementDiv">privacy agreement</label></a>
+            </div>
+        </div>
+
+
+        <button id="loginbtn">
+            Login In
+        </button>
+        <div id="verificationDiv">
+        <label for="verificationDiv" id="label1">SMS verivication code login</label>
+        <a href="register.html"><label for="verificationDiv" id="label2">New User Registration</label></a>
+        </div>
+
+    </div>
+ 
+</body>
+</html>
