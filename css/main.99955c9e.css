@@ -1291,12 +1291,18 @@
   height: 45px;
   position: fixed;
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
   z-index: 10;
-  background-color: #fff;
+  /* background-color: #971515; */
+  
 }
-@media (min-width: 375px) {
+
+a {
+  list-style: none;
+  text-decoration: none;
+}
+/* @media (min-width: 375px) {
   .v_shop_jie .v-shop-jie-head {
     max-width: 100%;
   }
@@ -1320,7 +1326,7 @@
   .v_shop_jie .v-shop-jie-head {
     max-width: 475px;
   }
-}
+} */
 .v_shop_jie
   .v-shop-jie-head
   .v-shop-jie-head-list
